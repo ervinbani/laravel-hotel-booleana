@@ -1,0 +1,167 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header{
+
+  width: 100%;
+  height: 200px;
+
+}
+.fotologo{
+  background-image: url(boolean.png);
+  background-size: cover;
+  border:10px solid #ECFAFB;
+  width: 20%;
+  height: 200px;
+  float:left;
+
+}
+/* .folotogo img{
+  width: 100%;
+} */
+header .brand{
+  width: 75%;
+  height:200px;
+  padding-top: 20px;
+  font-size: 60px;
+  color: 	#81CBC8;
+  text-align: center;
+  margin-left: 5%;
+  float:left;
+}
+header .stella>img{
+  width: 200px;
+}
+
+.clear{
+  clear: both;
+}
+
+.contenitore {
+
+  width: 100%;
+  height: auto;
+  text-align: center;
+  padding-top: 0;
+  color: #00BBF0;
+
+  }
+  .contenitore *{
+    width: calc(100%/6);
+    float: left;
+
+
+  }
+
+
+  .secondocontainer{
+    width: 100%;
+    height: 600px;
+    background-image: url('MILANO.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+.menu-element *{
+  width: 100%;
+  height: 100px;
+  padding-top:48px;
+  text-decoration: none ;
+
+}
+footer .banner{
+  width: 780px;
+  height: 90px;
+  }
+  .banner>img{
+    margin-left: 25%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+
+  }
+
+.bg-blue{
+  background-color: #ECFAFB;
+
+}
+.tablewraper{
+  width:100%;
+  height: auto;
+
+}
+table, table *{
+  border: 2px solid lightblue;
+
+}
+.tablewraper>div{
+  width:calc(100%/3);
+  height: auto;
+  float: left;
+}
+
+@media screen and (max-width: 480px){
+  background-color: #ECFAFB;{
+  width: auto;
+  height: 200px;
+}
+  .fotologo{
+    background-image: url(BOOLEAN.png);
+    background-size: cover;
+    border:10px solid #ECFAFB;
+    width: 100%;
+    height: 200px;
+
+  }
+  header .stella>img{
+    width: 200px;
+  }
+  header .brand{
+    width: 100%;
+    height:200px;
+    padding-top: 10px;
+    font-size: 30px;
+    color: 	#81CBC8;
+    text-align: center;
+    margin-left: 10px;
+    float:left;
+  }
+
+.contenitore *{
+  background-color: #81CBC8;
+  border-bottom: 1px solid white;
+  color: WHITE;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  vertical-align: middle;
+  float: left;
+}
+.menu-element *{
+  width: 100%;
+  height: 100%;
+}
+.tablewraper>div{
+  width:100%;
+  height: auto;
+}
+
+.banner>img{
+  width: 480px;
+  margin-left: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.container *{
+
+  margin-top: 10px;
+
+}
+
+
+
+
+
+}
